@@ -284,7 +284,7 @@ iframe { width: 100%; border: none; pointer-events: auto; }
 .marquee-wrap { width: 100%; position: relative; }
 .marquee-wrap { overflow: hidden; width: 100%; white-space: nowrap; position: relative;}
 .marquee-text {margin-bottom: 10px; padding-left: 100%; animation:  marquee 30s linear infinite; position: relative; display: inline-block; align-items: center; min-width: 100%; white-space: nowrap;}
-.marquee-text span {height: 70px; font-size: 65px; line-height: 1; font-weight: 600; font-family: var(--themeht-secondary-font-family); background: linear-gradient(180deg, var(--themeht-primary-color2) 62%, var(--themeht-primary-color) 64%, var(--themeht-primary-color3) 65%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.marquee-text span {height: 70px; font-size: 65px; line-height: 1; font-weight: 600; font-family: var(--themeht-secondary-font-family); background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color4), var(--themeht-primary-color2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .marquee-text i { font-size: 40px; display: inline-block; vertical-align: middle; line-height: 1; margin: 0 30px; background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color), var(--themeht-primary-color3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .marquee-small .marquee-text span { font-size: 40px;}
 .marquee-white .marquee-text span, .marquee-white .marquee-text i { background: inherit; -webkit-text-fill-color: inherit; color: var(--themeht-white-color); }

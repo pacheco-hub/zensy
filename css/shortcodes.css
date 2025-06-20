@@ -30,7 +30,7 @@
 .theme-title { margin-bottom: 50px; text-align: center;}
 .dark-bg .theme-title h2, .theme-bg .theme-title h2, .dark-bg .theme-title p, .theme-bg .theme-title p { color: var(--themeht-white-color) }
 .theme-title h6 { position: relative; font-weight: 600; text-transform: uppercase; margin-bottom: 10px; background:  linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color4), var(--themeht-primary-color)); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);}
-.theme-title h4 { position: relative; font-weight: 600; text-transform: uppercase; margin-bottom: 10px; background: linear-gradient(180deg, var(--themeht-primary-color2) 52%, var(--themeht-primary-color) 54%, var(--themeht-primary-color3) 56%); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);}
+.theme-title h4 { position: relative; font-weight: 600; text-transform: uppercase; margin-bottom: 10px; background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color4), var(--themeht-primary-color2)); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);}
 .about {text-align: left;}
 .theme-title h2 { margin-bottom: 0; }
 .theme-title p { margin-bottom: 0; margin-top: 15px }

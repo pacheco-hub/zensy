@@ -194,7 +194,7 @@ span,
 .copyright { margin-top: 40px; font-family: var(--themeht-secondary-font-family); font-size: 18px; }
 .footer-logo img { height: 70px; }
 .primary-footer, .primary-footer a { color: var(--themeht-text-color); }
-.primary-footer h5 { margin-bottom: 20px; text-transform: uppercase; background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color4), var(--themeht-primary-color)); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent;  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;}
+.primary-footer h5 { margin-bottom: 20px; text-transform: uppercase; background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color4), var(--themeht-primary-color2)); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent;  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;}
 .media-icon.list-inline li { display: inline-block; }
 .media-icon li { margin-bottom: 15px; font-size: 16px; font-weight: 400; }
 .media-icon li:last-child { margin-bottom: 0; }
