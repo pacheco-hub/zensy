@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, software, startup, technology" />
+    <meta name="description" content="HTML5 Template" />
+    <meta name="author" content="www.themeht.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Zensy</title>
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/Zensy_Icona.png" />
+
+    <!-- inject css start -->
+
+    <!--== bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!--== bootstrap-icons -->
+    <link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+
+    <!--== animate -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+    <!--== magnific-popup -->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+
+    <!--== owl-carousel -->
+    <link href="css/owl.carousel.css?v=2" rel="stylesheet" type="text/css" />
+
+    <!--== odometer -->
+    <link href="css/odometer.css" rel="stylesheet" type="text/css" />
+
+    <!--== spacing -->
+    <link href="css/spacing.css" rel="stylesheet" type="text/css" />
+
+    <!--== base -->
+    <link href="css/base.css?v=2" rel="stylesheet" type="text/css" />
+
+    <!--== base -->
+    <link href="css/landingPage.css?v=3" rel="stylesheet" type="text/css" />
+
+    <!--== shortcodes -->
+    <link href="css/shortcodes.css?v=3" rel="stylesheet" type="text/css" />
+
+    <!--== default-theme -->
+    <link href="css/style.css?v=3" rel="stylesheet" type="text/css" />
+
+    <!--== shortcodes -->
+    <link href="css/modifiche.css?v=2" rel="stylesheet" type="text/css" />
+
+    <!--== responsive -->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--capthca 3  -->
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeGsPsqAAAAAELwY0ozcpKu6DEu5OOOD9mV6tur"></script>
+
+
+
+    <!-- inject css end -->
+
+  <style>
+   @keyframes pop-check {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.check.animate-check {
+  animation: pop-check 0.6s ease;
+}
+
+  </style>
+    
+  </head>
+
+  <body>
+
+  <!-- modal privacy -->
+  <div class="modal fade" id="modalPrivacy" style="z-index:10000" tabindex="-1" role="dialog" data-bs-backdrop="static" aria-labelledby="modalPrivacyLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-center modal-xl">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="examplemodalFormPrivacyLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- page wrapper start -->
+
+    <div class="page-wrapper">
+
+      <!-- preloader start -->
+
+      <div id="ht-preloader">
+        <div class="loader clear-loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="loader-text">Loading</div>
+        </div>
+      </div>
+
+      <!-- preloader end -->
+
+
+      <!--header start-->
+
+      <header id="site-header" class="header">
+        <div id="header-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg">
+                  <img class="logo-nav" src="../../../favicon.ico" alt="logo" style="display: none;">
+                  <img src="images/Zensy.png" class="mt-4" alt="Logo" style="height: 70px;">
+                  <button class="navbar-toggler ht-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+                      <path class="line line2" d="M 20,50 H 80"></path>
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+                    </svg>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Left nav -->
+                    <ul class="nav navbar-nav mx-auto">
+                      <!-- Home -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#home" data-bs-toggle="dropdown">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#piattaforma" data-bs-toggle="dropdown">Vantaggi</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#prezzi" data-bs-toggle="dropdown">Prodotti</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#recensioni" data-bs-toggle="dropdown">Recensioni</a>
+                      </li>
+                      <!-- 
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#certificazioni" data-bs-toggle="dropdown">certificazioni</a>
+                      </li>   -->
+                    </ul>
+                  </div>
+                  <a class="themeht-btn coppia" id="it" href="https://<?= DEV_MODE?>.gestioneclienti.cloud/sw/piattaforma/index.php?controller=sessioneUtente&action=loginPage" target="_blank">Accedi</a> <a class="themeht-btn dark-btn coppia ordinazione" style="width: 108px; text-align: center;">Inizia</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--header end-->
+
+      <div class="page-content"></div>
+      
+      <!--body content start-->
+
+      <section class="banner" id="home">
+        <div class="container">
+          <div class="row  align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-1 ps-lg-8">
+              <div class="banner-img wow animate__fadeInRight animate__slow">
+                <img class="img-fluid banner-img2 rounded topBottom" src="images/immagini-landingPage/immagine_software.jpg" alt="">
+                <div class="macbook-box box-shadow">
+                  <video class="img-fluid rounded" autoplay loop muted>
+                    <source src="images/immagini-landingPage/ragazzaCammina2.mp4" type="video/mp4">
+                    Il tuo browser non supporta il formato video.
+                  </video>
+                </div>
+                <img class="img-fluid banner-img3 rounded leftRight" src="images/immagini-landingPage/immagine_software2.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mt-8 mt-lg-0">
+              <h1 class="mb-4 wow animate__shakeX animate__slow" style="text-transform: inherit;"><span>Clienti al Centro</span></h1>
+              <p class="lead mb-5 wow animate__zoomIn animate__slow">Dai più valore alla tua attività con Zensy, il software progettato per semplificare e ottimizzare ogni aspetto della gestione aziendale. Grazie a un'interfaccia intuitiva e strumenti avanzati, Zensy ti permette di:
+              </p>
+              <div class="lead mb-5 wow animate__zoomIn animate__slow">
+                <div class="info-item ">
+                  <i class="bi bi-info-circle"></i>
+                  <p>Gestire i contatti e il calendario appuntamenti, organizzando le attività in modo efficiente e senza sovrapposizioni.
+                  </p>
+                </div>
+                <div class="info-item ">
+                  <i class="bi bi-info-circle"></i>
+                  <p>Monitorare le vendite e gestire la rendicontazione, tenendo sempre sotto controllo le performance economiche della tua attività.
+                  </p>
+                </div>
+                <div class="info-item ">
+                  <i class="bi bi-info-circle"></i>
+                  <p>Gestire la privacy e i contratti, garantendo la conformità alle normative vigenti con archiviazione sicura e gestione automatizzata dei documenti.
+                  </p>
+                </div>
+                <div class="info-item">
+                  <i class="bi bi-info-circle"></i>
+                  <p>Trattare i dati sanitari, assicurando la corretta gestione delle informazioni sensibili nel rispetto delle normative.
+                  </p>
+                </div>
+                <p>Tutto in un'unica soluzione potente e flessibile, pensata per semplificare il tuo lavoro e migliorare la produttività.
+                </p>
+              </div>
+              <div class="wow animate__fadeInUp animate__slow">
+
+                <a class="themeht-btn" href="https://<?= DEV_MODE?>.gestioneclienti.cloud/sw/piattaforma/index.php?controller=sessioneUtente&action=loginPage" target="_blank">Accedi</a>
+                <a class="themeht-btn dark-btn ms-3 ordinazione" style="width: 108px; text-align: center;">Inizia</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-shape1"></div>
+      </section>
+
+
+      <!--faq start-->
+
+      <section id="piattaforma" class="light-bg">
+        
+
+
+        <div class="container"  data-aos= "fade-left"  data-aos-duration="1000">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10">
+              <div class="theme-title mb-4" style="text-align: left;">
+                <h4>PERCHÉ SCEGLIERCI</h4>
+                <h2>Il Tuo Partner per la Conformità GDPR</h2>
+              </div>
+              <p class="mb-5" style="text-align: left;">Nel tuo centro estetico ogni giorno raccogli dati personali e sensibili: nomi, numeri di telefono, indirizzi, abitudini, informazioni sullo stato di salute dei clienti.
+                Queste informazioni, tutelate dal Regolamento Europeo sulla Privacy (GDPR), sono una risorsa... ma se gestite male, possono diventare un rischio enorme. <br> Zensy  ti garantisce: </p>
+              <div class="row"  style="color: black;">
+                <div class="col-md-6">
+                  <ul class="list-unstyled list-icon">
+                    <li>
+                      <i class="bi bi-check-lg"></i> Monitoraggio continuo GDPR
+                    </li>
+                    <li>
+                      <i class="bi bi-check-lg"></i> Responsabilità legale certificata
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 mt-3 mt-md-0">
+                  <ul class="list-unstyled list-icon">
+                    <li>
+                      <i class="bi bi-check-lg"></i> Riduzione del rischio di sanzioni
+                    </li>
+                    <li>
+                      <i class="bi bi-check-lg"></i> Fiducia garantita dei clienti
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <img class="img-fluid rounded shadow-sm" src="images/immagini-landingPage/immaginePrivacy.png" alt="Protezione dati e conformità GDPR">
+            </div>
+          </div>
+        </div>
+
+        <div class="container" style="margin-top: 100px;"  data-aos= "fade-right"  data-aos-duration="1000" >
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+              <div class="white-bg rounded box-shadow">
+                <div class="theme-title p-5 mb-0">
+                  <h4 style="display: inline;">Cos'è Zensy?</h4>
+                  <h2>Controllo completo, gestione senza fatica</h2>
+                </div>
+                <img class="img-fluid rounded" src="images/immagini-landingPage/ragazze_estetista.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10">
+              <div class="accordion" id="accordion">
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1"> Zensy</button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse border-0" aria-labelledby="heading1" data-bs-parent="#accordion">
+                    <div class="accordion-body">Zensy ti affianca in ogni aspetto della tua attività, dalla gestione dei clienti e degli appuntamenti al controllo delle risorse. Con gli strumenti giusti, lavori in modo più efficiente e produttivo.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"> Organizzazione Turni</button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse border-0" aria-labelledby="heading2" data-bs-parent="#accordion">
+                    <div class="accordion-body">In Zensy, puoi organizzare facilmente i turni dei tuoi dipendenti. Grazie a una gestione centralizzata, puoi pianificare orari, monitorare le presenze e ottimizzare la distribuzione delle risorse, garantendo un flusso di lavoro sempre efficiente.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"> Appuntamenti online: un servizio facile e veloce</button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse border-0" aria-labelledby="heading3" data-bs-parent="#accordion">
+                    <div class="accordion-body">Grazie a Zensy, i tuoi clienti possono prenotare appuntamenti direttamente online. Semplice e veloce, il sistema consente di gestire le prenotazioni in tempo reale, riducendo il rischio di errori e migliorando l’esperienza del cliente.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Gestione Magazzino</button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse border-0" aria-labelledby="heading4" data-bs-parent="#accordion">
+                    <div class="accordion-body">Zensy ti aiuta anche a tenere sotto controllo il tuo magazzino. Monitora le scorte, gestisci gli acquisti e pianifica il riassortimento in modo semplice e preciso, evitando carenze e ottimizzando la disponibilità dei prodotti.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Contatto Col Cliente</button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse border-0" aria-labelledby="heading5" data-bs-parent="#accordion">
+                    <div class="accordion-body">Aggiorna i tuoi clienti con facilità. Con Zensy li tieni sempre informati sullo stato dei loro abbonamenti e invia notifiche personalizzate come promemoria per appuntamenti, garantendo un servizio più efficiente e clienti sempre soddisfatti.</div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4">
+                  <h2 class="accordion-header" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6"> Trasparenza E Sicurezza per i Tuoi Clienti </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse border-0" aria-labelledby="heading3" data-bs-parent="#accordion">
+                    <div class="accordion-body">Con Zensy, i tuoi clienti ricevono un report completo dei trattamenti effettuati, compresi i macchinari e i prodotti utilizzati. In questo modo, non solo garantisci maggiore trasparenza, ma offri anche maggiore sicurezza, permettendo ai clienti di sentirsi sicuri e informati riguardo alla cura della loro salute.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7"> Garantisci la privacy e rispetta le normative</button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse border-0" aria-labelledby="heading6" data-bs-parent="#accordion">
+                    <div class="accordion-body">Con Zensy, non solo semplifichi la gestione quotidiana, ma proteggi anche la tua attività da sanzioni comuni che colpiscono molte aziende. Il nostro software ti aiuta a rispettare tutte le normative sulla privacy dei dati e sulla responsabilità per i macchinari, prevenendo multe e problemi legali che potrebbero compromettere la tua attività. Evita rischi costosi e proteggi il tuo business con un sistema sicuro e conforme.
+                      <p><a href="#" id="privacy-link">Privacy</a></p>
+                    </div>
+                    <div id="privacy-modal" class="modal custom-a">
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h4>Informativa privacy</h4>
+                        
+
+                        <p class="mt-4 title">PREMESSA</p>
+                        Ai sensi del Regolamento Europeo 679/2016 c.d. “GDPR”, la presente Informativa Privacy descrive come Andilab S.r.l. (“Andilab” o il “Gestore”) gestisce la propria piattaforma online denominata “Zensy” accessibile per via telematica all'indirizzo https://gestioneclienti.cloud (di seguito anche "Piattaforma") in relazione al trattamento dei dati personali riferibili agli utenti che vi accedono. La presente Informativa attiene esclusivamente alla Piattaforma accessibile tramite l'indirizzo https://gestioneclienti.cloud e non si riferisce ad altri siti web consultati dall'utente tramite link ipertestuali eventualmente presenti nella suddetta Piattaforma. L'utilizzo di altri siti e servizi, anche se tramite link presenti nella Piattaforma, può essere soggetto a diversi termini e informative sulla privacy.
+
+                        <p class="mt-4 title">RUOLO DEL TRATTAMENTO</p>
+                        A seguito dell'utilizzo della Piattaforma possono essere trattati dati relativi a persone fisiche identificate o identificabili. Andilab S.r.l., società con sede legale in Via dei Normanni n. 17, 65014 Loreto Aprutino (PE), P.IVA/C.F. 02326560683, info@andilab.it, ricopre il ruolo di Titolare del trattamento dati personali (di seguito “Titolare”) per i dati personali degli utenti raccolti in occasione (i) dell'accesso; (ii) della registrazione; (iii) dell’utilizzazione della Piattaforma e/o (iv) della richiesta di assistenza e customer care. Nel caso di inserimento dei dati personali di altri soggetti da parte degli utenti autorizzati (ad es. i dati anagrafici dei pazienti), l’utente è altresì titolare del trattamento, limitatamente ai dati inseriti per i quali ha ottenuto idoneo consenso da parte dei soggetti interessati (e, in particolare, dei diritti previsti agli artt. 15-21 del GDPR).
+
+                        <p class="mt-4 title">DATI DI CONTATTO</p>
+                        Gli utenti possono contattate Andilab per tutte le questioni relative al trattamento dei loro dati personali e/o in relazione alla gestione dei dati trattati per il tramite della Piattaforma "Zensy", nonché per l’esercizio dei loro diritti derivanti dal Regolamento al seguente indirizzo: dpo@andilab.it
+
+                        <p class="mt-4 title">TIPI DI DATI TRATTATI</p>
+                        Tutti i dati raccolti e trattati sono gestiti nel rispetto della vigente normativa comunitaria e nazionale, incluse leggi, regolamenti impartiti da Autorità a ciò legittimate. Andilab tratterà, in qualità di Titolare (i) i dati tecnici di funzionamento non inviati a terzi (ID univoci e dati del dispositivo informatico utilizzato) nella fase di navigazione della Piattaforma; (ii) i dati personali (credenziali di accesso) fornite dall'utente ai fini dell'accreditamento ad Zensy"; (iii) i dati inseriti dagli utenti autorizzati attraverso la Piattaforma e (iv) le informazioni eventualmente fornite dall’utente richiedere informazioni/assistenza.
+
+                        <p class="mt-4 title">COOKIE E ALTRI SISTEMI DI TRACCAIMENTO</p>
+                        Vengono utilizzati cookie tecnici e cookie analitici anonimizzati, non vengono utilizzati cookie di profilazione degli utenti. Per maggiori informazioni dettagliate sui cookie e sui loro tempi di conservazione si prega di consultare la nostra Cookie Policy al seguente link Cookie Policy.
+
+                        <p class="mt-4 title">TRATTAMENTO E BASI GIURIDICHE</p>
+                        Andilab tratterà i dati personali per: (i) permettere la visualizzazione e l’accesso alla Piattaforma; (ii) consentire la registrazione alla Piattaforma e (iii) l’utilizzazione dei servizi riservati agli utenti registrati; (iv) dare esecuzione alle richieste inviate dall'utente stesso. Le informazioni relative al funzionamento raccolte direttamente (navigazione), che quelle inviate a terzi (i) sono raccolte automaticamente in forma anonima ed aggregata sia per rilevare eventuali problemi tecnici che per finalità statistiche legate alla fruizione della Piattaforma, per migliorare la facilità di utilizzo e l'accesso alle funzionalità fornite. Il trattamento di tali dati non necessita del consenso dell'interessato (art. 6, comma 1, lett. f del GDPR). Il conferimento dei dati personali per (iv) eventuali richieste di informazioni e/o assistenza non è obbligatorio, ed è ascrivibile all’art. 6, comma 1, lett. b, ultimo capoverso del GDPR o, a seconda dei casi, al legittimo interesse di Andilab (art. 6, comma 1, lett. f del GDPR) ed è strettamente strumentale all'adempimento dell’istanza.
+
+                        <p class="mt-4 title">MODALITA DI TRATTAMENTO E TEMPI DI CONSERVAZIONE</p>
+                        I trattamenti avvengono in formato elettronico, con logiche strettamente correlate alle finalità suddette, conservati per il solo tempo necessario a conseguire gli scopi per cui sono stati raccolti e saranno cancellati al termine di tale periodo, salvo che i dati stessi debbano essere conservati per obblighi di legge o per far valere un diritto in sede giudiziaria. Ad esempio, potremmo aver bisogno di conservare i dati personali dell'utente per garanzia di qualità del servizio fornito, o potremmo aver bisogno di conservarle per difenderci da rivendicazioni legali future. Per (i) i dati relativi alla navigazione del sito le policy di eliminazione prevedono la cancellazione immediata dopo la loro aggregazione, mentre i dati conferiti dall'utente per (ii) la registrazione e (iii) l’utilizzo della Piattaforma saranno conservati per dieci anni dalla loro ricezione. I (iv) dati relativi a richieste di informazioni e/o assistenza saranno conservati da Andilab per un anno dalla presentazione dell’istanza. Andilab informa che specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti ed accessi non autorizzati.
+
+                        <p class="mt-4 title">DESTINATARI DEI DATI</P>
+                        I dati potranno, per il perseguimento delle finalità precedentemente descritte, essere comunicati e conosciuti a/da: dipendenti e lavoratori subordinati e, in genere, al personale di Andilab, che opereranno in qualità di Autorizzati al trattamento dei dati personali, appositamente nominati dal Titolare. I dati dell'utente potranno essere trattati anche da Aruba S.p.A. fornitore di servizi per la gestione dei sistemi informatici e la manutenzione dell'infrastruttura IT, tale soggetto opererà in qualità di Responsabile del trattamento appositamente nominato dal Titolare ai sensi dell'art. 28 del GDPR Il trattamento e la conservazione dei dati vengono effettuati in Italia e non sono previsti trasferimenti in altri Paesi extra UE, né tali dati saranno oggetto di diffusione al pubblico. Andilab assicura che nell’eventuale caso di trasferimento dei dati trattati saranno adottati i meccanismi a tutela dell'interessato di cui agli artt. 44 e ss. del GDPR.
+
+                        <p class="mt-4 title">DIRITTI DEGLI INTERESSATI</P>
+                        L'utente della Piattaforma “Zensy” potrà esercitare i diritti previsti dal GDPR contattando il Titolare attraverso l'indirizzo e-mail dpo@andilab.it. In particolare, potrà richiedere l'accesso ai dati personali che la riguardano, la rettifica o la cancellazione o potrà richiedere la limitazione al trattamento e/o opporsi al trattamento. Inoltre, avrà il diritto alla portabilità dei dati e qualora volesse proporre reclamo potrà presentarlo anche all'Autorità Garante per la protezione dei dati personali.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section >
+
+      <!--faq end-->
+
+      <!--marquee start-->
+
+      <section  class="overflow-hidden p-0">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <div class="col">
+              <div class="marquee-wrap">
+                <div class="marquee-text">
+                  <span>Zensy</span>
+                  <i class="bi bi-dot"></i>
+                  <span>Automatizza la tua attività</span>
+                  <i class="bi bi-dot"></i>
+                  <span>Gestisci abbonati e appuntamenti</span>
+                  <i class="bi bi-dot"></i>
+                  <span>Dati chiari, scelte migliori</span>
+                  <i class="bi bi-dot"></i>
+                  <span>Semplifica la gestione</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--marquee end-->
+
+
+
+        <!--service start--
+
+      <section id="servizi" class="light-bg">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="theme-title">
+                <h4>Servizi</h4>
+                <h2>Scopri come semplificare la gestione aziendale</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-lg-5 text-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item style-1">
+                <div class="service-images">
+                  <img class="img-fluid" src="images/software_design.png" alt="">
+                </div>
+                <div class="service-desc">
+                  <div class="service-title">
+                    <h4>Software Design</h4>
+                  </div>
+                  <p>Design intuitivo per gestire la tua attività in modo semplice, senza complicazioni e con maggiore efficienza.</p>
+                  <--<a class="service-btn" href="services-single.html">
+                    <i class="bi bi-arrow-right-short"></i>->
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-6 mt-lg-0">
+              <div class="service-item style-1">
+                <div class="service-images">
+                  <img class="img-fluid" src="images/operativita.png" alt="">
+                </div>
+                <div class="service-desc">
+                  <div class="service-title">
+                    <h4>Gestione Operativa</h4>
+                  </div>
+                  <p>Ottimizza la gestione operativa: pianifica turni, coordina il team e gestisci risorse per un flusso di lavoro più efficiente e organizzato.</p>
+                  <--<a class="service-btn" href="services-single.html">
+                    <i class="bi bi-arrow-right-short"></i>->
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-6 mt-md-0">
+              <div class="service-item style-1">
+                <div class="service-images">
+                  <img class="img-fluid" src="images/analisi_dati.png" alt="">
+                </div>
+                <div class="service-desc">
+                  <div class="service-title">
+                    <h4>Analisi Dati</h4>
+                  </div>
+                  <p>Monitora le risorse e valuta l'efficacia delle tue attività. Con Zensy, migliorare ogni aspetto della gestione è facile e veloce.</p>
+                  <--<a class="service-btn" href="services-single.html">
+                    <i class="bi bi-arrow-right-short"></i>->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      service end-->
+
+      <!--pricing start "grediant-bg2"-->
+
+      
+
+<section id="prezzi" data-aos= "fade-down"  data-aos-duration="1000" data-aos-delay="50">
+  <div class="theme-title z-index-1">
+    <h4 style="text-align: center;" >PRODOTTI</h4>
+    
+  </div>
+ 
+  <!-- Mini menu con i piani -->
+
+  <div class="container">
+    
+  </div>
+
+  <h2 style="text-align: center;">I Piani offerti</h2>
+  <p style="text-align: center; margin-bottom: 20px;">L'abbonamento è valido per un singolo negozio, con accesso a tutte le funzionalità per la Zensy, appuntamenti, vendite e privacy.</p>
+   
+  <div class="ombra justify-content-center align-items-center mt-5 mb-5" style="display: flex; flex-direction: column; width: 70%; ">
+    <div class="pricing-menu" style="background-color: #F5F5F5;">
+      
+        <h4 id="light-plan" class="pricing-tab plan-button fs-md-5">Base</h4>
+        <h4 id="standard-plan" class="pricing-tab active plan-button fs-md-5">Plus</h4>
+        <h4 id="premium-plan" class="pricing-tab plan-button fs-md-5">Avanzato</h4>
+        <h4 id="completed-plan" class="pricing-tab plan-button fs-md-5">Completo</h4>
+      
+    </div>
+
+    <!-- Sezione contenuti piani -->
+    <div id="pricing-content">
+      <div id="light-content" class="pricing-content list-unstyled">
+          
+                          
+        <h4>DETTAGLI PIANO BASE</h4>
+        <ul class="feature-list">
+          <li><span>Gestione Agenda</span><span class="check">✓</span></li>
+          <li><span>Zensy Illimiati</span><span class="check">✓</span></li>
+          <li><span>Gestione Staff</span><span class="check">✓</span></li>
+          <li><span>Gestione Sala/Macchinari</span><span class="check">✓</span></li>
+          <li><span>Gestine Magazzino</span><span class="check">✓</span></li>
+          <li><span>Gestione Trattamenti</span><span class="check">✓</span></li>
+          <li><span>Gestione Comunicazione</span><span class="check">✓</span></li>
+          <li><span>Aggiornamenti Software</span><span class="check">✓</span></li>
+          <li><span>Marketing Newsletter</span><span class="check">✓</span></li>
+          <li><span>Promemoria SMS</span><span class="check">✓</span></li>
+          <li><span>Compleanno SMS</span><span class="check">✓</span></li>
+          <li><span>Fattura Elettronica</span><span class="check">✓</span></li>
+          <li><span>Scheda Salute</span><span class="check">✓</span></li>
+          <li><span>Fidelity Card</span><span class="check">✓</span></li>
+          <li><span>Lotteria Scontrini</span><span class="check">✓</span></li>
+          <li><span>Formazione</span><span class="check">✓</span></li>
+          <li><span>Assistenza Telefonica</span><span class="cross">X</span></li>
+          <li><span>Privacy</span><span class="cross">X</span></li>
+          <li><span>GDPR</span><span class="cross">X</span></li>
+          <li><span>Statistiche e Report</span><span class="cross">X</span></li>
+          <li><span>Gestione DPO</span><span class="cross">X</span></li>
+          <li><span>Sito Web Personalizzato</span><span class="cross">X</span></li>
+          <li><span>Posizionamento Goole</span><span class="cross">X</span></li>
+          <li><span>Prenotazioni On-line</span><span class="cross">X</span></li>
+          <li><span>Vendita Online Prodotti</span><span class="cross">X</span></li>
+          <li><span>PC All-in-one-touch in Comodato</span><span class="cross">X</span></li>
+          
+        </ul>
+        <div class="billing-section mt-5" style="text-align: center; margin-bottom: 1.5rem;">
+
+          <!-- Toggle Mensile / Annuale -->
+          <div class="billing-toggle" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
+            <a  class="themeht-btn billing-option active" data-plan="monthly">Mensile</a>
+            <a  class="themeht-btn dark-btn billing-option" data-plan="annual">Annuale</a>
+          </div>
+
+         <!-- Prezzo: front e back -->
+          <div class="price-display" style="font-size: 2rem; font-weight: bold;">
+            <div class="front">
+              <span class="price" data-monthly="€29" data-annual="€299">€29</span>
+              <span class="period">/mese</span>
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="standard-content" class="pricing-content active">
+        <h4>DETTAGLI PIANO PLUS</h4>
+        <ul class="feature-list">
+        <li><span>Gestione Agenda</span><span class="check">✓</span></li>
+          <li><span>Zensy Illimiati</span><span class="check">✓</span></li>
+          <li><span>Gestione Staff</span><span class="check">✓</span></li>
+          <li><span>Gestione Sala/Macchinari</span><span class="check">✓</span></li>
+          <li><span>Gestine Magazzino</span><span class="check">✓</span></li>
+          <li><span>Gestione Trattamenti</span><span class="check">✓</span></li>
+          <li><span>Gestione Comunicazione</span><span class="check">✓</span></li>
+          <li><span>Aggiornamenti Software</span><span class="check">✓</span></li>
+          <li><span>Marketing Newsletter</span><span class="check">✓</span></li>
+          <li><span>Promemoria SMS</span><span class="check">✓</span></li>
+          <li><span>Compleanno SMS</span><span class="check">✓</span></li>
+          <li><span>Fattura Elettronica</span><span class="check">✓</span></li>
+          <li><span>Scheda Salute</span><span class="check">✓</span></li>
+          <li><span>Fidelity Card</span><span class="check">✓</span></li>
+          <li><span>Lotteria Scontrini</span><span class="check">✓</span></li>
+          <li><span>Formazione</span><span class="check">✓</span></li>
+          <li><span>Assistenza Telefonica</span><span class="check">✓</span></li>
+          <li><span>Privacy</span><span class="check">✓</span></li>
+          <li><span>GDPR</span><span class="check">✓</span></li>
+          <li><span>Statistiche e Report</span><span class="check">✓</span></li>
+          <li><span>Gestione DPO</span><span class="cross">X</span></li>
+          <li><span>Sito Web Personalizzato</span><span class="cross">X</span></li>
+          <li><span>Posizionamento Goole</span><span class="cross">X</span></li>
+          <li><span>Prenotazioni On-line</span><span class="cross">X</span></li>
+          <li><span>Vendita Online Prodotti</span><span class="cross">X</span></li>
+          <li><span>PC All-in-one-touch in Comodato</span><span class="cross">X</span></li>
+          
+        </ul>
+
+        <div class="billing-section mt-5" style="text-align: center; margin-bottom: 1.5rem;">
+
+          <!-- Toggle Mensile / Annuale -->
+          <div class="billing-toggle" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
+            <a  class="themeht-btn billing-option active" data-plan="monthly">Mensile</a>
+            <a  class="themeht-btn dark-btn billing-option" data-plan="annual">Annuale</a>
+          </div>
+
+          <div class="price-display" style="font-size: 2rem; font-weight: bold;">
+            <div class="front">
+            
+              <span class="price" data-monthly="€39" data-annual="€339">€39</span>
+              <span class="period">/mese</span>
+            
+            </div>
+           
+          </div>
+
+        </div>
+      </div>
+
+      <div id="premium-content" class="pricing-content">
+        <h4>DETTAGLI PIANO AVANZATO</h4>
+        <ul class="feature-list">
+        <li><span>Gestione Agenda</span><span class="check">✓</span></li>
+          <li><span>Zensy Illimiati</span><span class="check">✓</span></li>
+          <li><span>Gestione Staff</span><span class="check">✓</span></li>
+          <li><span>Gestione Sala/Macchinari</span><span class="check">✓</span></li>
+          <li><span>Gestine Magazzino</span><span class="check">✓</span></li>
+          <li><span>Gestione Trattamenti</span><span class="check">✓</span></li>
+          <li><span>Gestione Comunicazione</span><span class="check">✓</span></li>
+          <li><span>Aggiornamenti Software</span><span class="check">✓</span></li>
+          <li><span>Marketing Newsletter</span><span class="check">✓</span></li>
+          <li><span>Promemoria SMS</span><span class="check">✓</span></li>
+          <li><span>Compleanno SMS</span><span class="check">✓</span></li>
+          <li><span>Fattura Elettronica</span><span class="check">✓</span></li>
+          <li><span>Scheda Salute</span><span class="check">✓</span></li>
+          <li><span>Fidelity Card</span><span class="check">✓</span></li>
+          <li><span>Lotteria Scontrini</span><span class="check">✓</span></li>
+          <li><span>Formazione</span><span class="check">✓</span></li>
+          <li><span>Assistenza Telefonica</span><span class="check">✓</span></li>
+          <li><span>Privacy</span><span class="check">✓</span></li>
+          <li><span>GDPR</span><span class="check">✓</span></li>
+          <li><span>Statistiche e Report</span><span class="check">✓</span></li>
+          <li><span>Gestione DPO</span><span class="check">✓</span></li>
+          
+          <li><span>Sito Web Personalizzato</span><span class="check">✓</span></li>
+          <li><span>Posizionamento Goole</span><span class="check">✓</span></li>
+          <li><span>Prenotazioni On-line</span><span class="check">✓</span></li>
+          <li><span>Vendita Online Prodotti</span><span class="check">✓</span></li>
+          <li><span>PC All-in-one-touch in Comodato</span><span class="cross">X</span></li>
+          
+        </ul>
+
+        <div class="billing-section mt-5" style="text-align: center; margin-bottom: 1.5rem;">
+
+          <!-- Toggle Mensile / Annuale -->
+          <div class="billing-toggle" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
+            <a  class="themeht-btn billing-option active" data-plan="monthly">Mensile</a>
+            <a  class="themeht-btn dark-btn billing-option" data-plan="annual">Annuale</a>
+          </div>
+
+          <div class="price-display" style="font-size: 2rem; font-weight: bold;">
+            <div class="front">
+              <span class="price" data-monthly="€49" data-annual="€449">€49</span>
+              <span class="period">/mese</span>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+      <div id="completed-content" class="pricing-content">
+        <h4>DETTAGLI PIANO COMPLETO</h4>
+        <ul class="feature-list" > 
+        <li><span>Gestione Agenda</span><span class="check">✓</span></li>
+          <li><span>Zensy Illimiati</span><span class="check">✓</span></li>
+          <li><span>Gestione Staff</span><span class="check">✓</span></li>
+          <li><span>Gestione Sala/Macchinari</span><span class="check">✓</span></li>
+          <li><span>Gestine Magazzino</span><span class="check">✓</span></li>
+          <li><span>Gestione Trattamenti</span><span class="check">✓</span></li>
+          <li><span>Gestione Comunicazione</span><span class="check">✓</span></li>
+          <li><span>Aggiornamenti Software</span><span class="check">✓</span></li>
+          <li><span>Marketing Newsletter</span><span class="check">✓</span></li>
+          <li><span>Promemoria SMS</span><span class="check">✓</span></li>
+          <li><span>Compleanno SMS</span><span class="check">✓</span></li>
+          <li><span>Fattura Elettronica</span><span class="check">✓</span></li>
+          <li><span>Scheda Salute</span><span class="check">✓</span></li>
+          <li><span>Fidelity Card</span><span class="check">✓</span></li>
+          <li><span>Lotteria Scontrini</span><span class="check">✓</span></li>
+          <li><span>Formazione</span><span class="check">✓</span></li>
+          <li><span>Assistenza Telefonica</span><span class="check">✓</span></li>
+          <li><span>Privacy</span><span class="check">✓</span></li>
+          <li><span>GDPR</span><span class="check">✓</span></li>
+          <li><span>Statistiche e Report</span><span class="check">✓</span></li>
+          <li><span>Gestione DPO</span><span class="check">✓</span></li>
+         
+          <li><span>Sito Web Personalizzato</span><span class="check">✓</span></li>
+          <li><span>Posizionamento Goole</span><span class="check">✓</span></li>
+          <li><span>Prenotazioni On-line</span><span class="check">✓</span></li>
+          <li><span>Vendita Online Prodotti</span><span class="check">✓</span></li>
+          <li><span>PC All-in-one-touch in Comodato</span><span class="check">✓</span></li>
+          
+        </ul>
+
+        <div class="billing-section mt-5" style="text-align: center; margin-bottom: 1.5rem;">
+
+          <!-- Toggle Mensile / Annuale -->
+          <div class="billing-toggle" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
+            <a  class="themeht-btn billing-option active" data-plan="monthly">Mensile</a>
+            <a  class="themeht-btn dark-btn billing-option" data-plan="annual">Annuale</a>
+          </div>
+
+          <div class="price-display" style="font-size: 2rem; font-weight: bold;">
+            <div class="front">
+              <span class="price" data-monthly="€59" data-annual="€559">€59</span>
+              <span class="period">/mese</span>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+
+
+  <div class="container" style="text-align: center; margin-top: 100px;" >  
+    <!-- Piani mensile e annuale sotto -->
+    <div class="col-lg-12 col-md-12 mt-8 mt-lg-0"  data-aos= "fade-down"  data-aos-duration="1000">
+      <h3 >Soluzioni Aggiuntive</h3>
+      
+    </div>
+
+     <!-- Prova gratuita in alto -->
+     <div class="row justify-content-center mb-5" data-aos= "fade-down"  data-aos-duration="1000">
+        <div class="col-lg-12 col-md-12">
+          <div class="price-table text-center mx-auto" style="padding: 20px; min-height: 150px;" >
+            <div class=" testa">
+              <h3 class="price-title" style="text-align: center !important;">Prova gratuita</h3>
+            </div>
+
+            <hr>
+            <p>Testa il nostro software senza alcun costo per 14 giorni. Avrai accesso a tutte le funzionalità, esplorando come il nostro sistema può semplificare la gestione del tuo business. Monitora le performance, gestisci appuntamenti e clienti, e ricevi supporto dedicato per sfruttare al meglio ogni strumento. Approfitta di questa opportunità per scoprire come il nostro software può ottimizzare il tuo lavoro.</p>
+            <a class="themeht-btn mt-4 ordinazione" style="width: 25%;" target="_blank">Inizia</a>
+          </div>
+        </div>
+      </div>     
+      <div class="row align-items-center mt-5">
+      
+      
+
+      <p>Completa la tua esperienza con due soluzioni esclusive pensate per far crescere il tuo business: una presenza online professionale e un PC All in pronto all’uso, già configurato.</p>
+
+        <div id="soluzioneWeb" class="col-lg-6 col-md-12 " data-aos= "fade-right"  data-aos-duration="1000">
+          <div class="price-table">
+            <div class="price-header">
+              <h3 class="price-title">Soluzione Web</h3>
+              <div class="price-value">
+                <h2><sup>€</sup>70</h2>
+                <span>/Mese</span>
+              </div>
+            </div>
+
+            <div class="price-list">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-lg"></i>Sito Web</li>
+                <li><i class="bi bi-check-lg"></i>Posizionamento Google</li>
+                <li><i class="bi bi-check-lg"></i>Prenotazioni Online</li>
+                <li><i class="bi bi-check-lg"></i>Shop Online</li>
+              </ul>
+            </div>
+
+            <!-- Slider immagini -->
+            <div id="webSolutionSlider" class="mb-4 mt-4" >
+              <div class="w-100 h-100 position-relative">
+                <img src="images/immagini-landingPage/sito1.PNG" class="img-slide img-fluid object-fit-cover position-absolute top-0 start-0 w-100 h-100" style="opacity: 1; transition: opacity 1s;">
+                
+                <img src="images/immagini-landingPage/sito2.PNG" class="img-slide img-fluid object-fit-cover position-absolute top-0 start-0 w-100 h-100" style="opacity: 0; transition: opacity 1s;">
+                
+              </div>
+            </div>
+
+            <a class="themeht-btn mt-4 ordinazione" target="_blank" style="width: 100%; text-align: center;">Acquista</a>
+          </div>
+        </div>
+      
+      <div class="col-lg-6 col-md-12 mt-lg-0"  data-aos= "fade-left"  data-aos-duration="1000">
+        <div class="price-table">
+          <div class="price-header">
+            <h3 class="price-title">Hardware</h3>
+            <div class="price-value">
+              <h2><sup>€</sup>700</h2>
+              <span>/Anno</span>
+            </div>
+          </div>
+          
+          <div class="price-list">
+            <ul class="list-unstyled">
+            <li><i class="bi bi-check-lg"></i>PC All-in-one touch</li>
+              <li><i class="bi bi-check-lg"></i>Tutte le funzionalità disponibili</li>
+              <li><i class="bi bi-check-lg"></i>Assistenza continua</li>
+              <li><i class="bi bi-check-lg"></i>Formazione Inclusa</li>
+            </ul>
+          </div>
+           <!-- Spazio video -->
+           <div class="mt-4 d-flex justify-content-center">
+            <video 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              style="width: 100%; max-width: 325px; height: auto; border: 2px solid #1C4966; border-radius: 20px;">
+              <source src="images/immagini-landingPage/videoHardware.mp4" type="video/mp4">
+              Il tuo browser non supporta il video.
+            </video>
+          </div>
+          <a class="themeht-btn mt-4 ordinazione" target="_blank" style="width: 100%; text-align: center;">Acquista</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+<!--portfolio start
+
+
+  <div class="container" style="margin-top: 100px;" data-aos= "flip-right"  data-aos-duration="1000">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8 col-md-12">
+        <div class="theme-title">
+          <h4>PORTFOLIO</h4>
+          <h2>Cosa offriamo</h2>
+          <p>Realizziamo siti web moderni, responsive e su misura per ogni esigenza, dalla vetrina personale al portale aziendale.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <div class="portfolio-item">
+          <div class="portfolio-img img-hover-wrapper position-relative">
+            <img class="img-fluid w-100 img-hover-dark" src="images/immagini-landingPage/sito1.PNG" alt="">
+            
+          </div>
+          <div class="portfolio-desc">
+            <h4>
+              <a href="portfolio-single.html">Desktop</a>
+            </h4>
+          </div>   
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+        <div class="portfolio-item">
+          <div class="portfolio-img img-hover-wrapper position-relative">
+            <img class="img-fluid w-100 sitoUnoMobile  img-hover-dark" src="images/immagini-landingPage/sito1Mobile.PNG" alt="">
+          </div>
+          <div class="portfolio-desc">
+            <h4>
+              <a href="portfolio-single.html">Mobile App</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-md-12">
+        <div class="portfolio-item">
+          <div class="portfolio-img img-hover-wrapper position-relative">
+            <img class="img-fluid w-100 img-hover-dark" src="images/immagini-landingPage/sito2.PNG" alt="">
+            
+          </div>
+          <div class="portfolio-desc">
+            <h4>
+              <a href="portfolio-single.html">Desktop</a>
+            </h4>
+          </div>   
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+        <div class="portfolio-item">
+          <div class="portfolio-img img-hover-wrapper position-relative">
+            <img class="img-fluid w-100 sitoUnoMobile  img-hover-dark" src="images/immagini-landingPage/sito2Mobile.PNG" alt="">
+          </div>
+          <div class="portfolio-desc">
+            <h4>
+              <a href="portfolio-single.html">Mobile App</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    
+  </div> -->
+</section>
+
+<!--portfolio end-->
+
+
+    
+
+    <!--pricing end-->
+
+    <!--testimonial start-->
+
+    <section  data-aos= "flip-right"  data-aos-duration="1000" data-aos-delay="50" id="recensioni">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-xl-7 col-lg-8 col-md-12">
+            <div class="theme-title">
+              <h4>Recensioni</h4>
+              <h2>Cosa dicono i nostri clienti</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="owl-carousel" data-dots="false" data-nav="true" data-center="true" data-items="3" data-lg-items="2" data-md-items="2" data-sm-items="1" data-autoplay="true">
+              <div class="item">
+                <div class="testimonial style-2">
+                  <div class="testimonial-quote">
+                    <i class="flaticon flaticon-quote"></i>
+                  </div>
+                  <p>Avevo bisogno di un sistema che mi aiutasse a gestire la privacy e i contratti per i trattamenti avanzati. Con questo software è tutto più semplice e sicuro.</p> <br>
+                  <div class="testimonial-media">
+                    <!--<div class="testimonial-img">
+                  <img class="img-fluid" src="images/testimonial/01.jpg" alt="">
+                </div>-->
+                    <div class="testimonial-caption">
+                      <h5>Francesca R.</h5>
+                      <label>estetista</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial style-2">
+                  <div class="testimonial-quote">
+                    <i class="flaticon flaticon-quote"></i>
+                  </div>
+                  <p>Gestire un centro benessere richiede precisione e organizzazione. Con questo software posso controllare gli appuntamenti, i trattamenti e le schede clienti in un unico posto.</p>
+                  <div class="testimonial-media">
+                    <!--<div class="testimonial-img">
+                  <img class="img-fluid" src="images/testimonial/02.jpg" alt="">
+                </div>-->
+                    <div class="testimonial-caption">
+                      <h5> Lorenzo M</h5>
+                      <label>titolare spa</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial style-2">
+                  <div class="testimonial-quote">
+                    <i class="flaticon flaticon-quote"></i>
+                  </div>
+                  <p>Finalmente ho eliminato carta e caos. Il software mi permette di gestire gli appuntamenti, inviare promemoria e organizzare le schede dei clienti in pochi click.</p>
+                  <div class="testimonial-media">
+                    <!--<div class="testimonial-img">
+                  <img class="img-fluid" src="images/testimonial/03.jpg" alt="">
+                </div>-->
+                    <div class="testimonial-caption">
+                      <h5> Marta C.</h5>
+                      <label>massaggiatrice</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial style-2">
+                  <div class="testimonial-quote">
+                    <i class="flaticon flaticon-quote"></i>
+                  </div>
+                  <p>Il software perfetto per chi lavora nella cura del corpo. Programmo le sedute, tengo traccia dei progressi dei clienti e riduco gli appuntamenti mancati grazie ai promemoria automatici.</p>
+                  <div class="testimonial-media">
+                    <!--<div class="testimonial-img">
+                  <img class="img-fluid" src="images/testimonial/04.jpg" alt="">
+                </div>-->
+                    <div class="testimonial-caption">
+                      <h5>Federica M.</h5>
+                      <label>specialista trattamenti estetici
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--testimonial end-->
+
+    <!--about start
+
+    <section  id="about-us" data-bg-img="images/bg/02.png"  >
+      
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <img class="img-fluid" src="images/about/03.png" alt="">
+          </div>
+          <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10">
+            <div class="theme-title mb-4">
+              <h4 class="about">Chi Siamo</h4>
+              <h2 class="cuore">Il Cuore di Zensy</h2>
+            </div>
+            <p class="mb-5">Fondata nel 2019, Andilab si dedica allo sviluppo di software con tecnologia PHP e bootstrap, con l'obiettivo di diventare leader del settore e offrire servizi di alta qualità ai nostri clienti.</p>
+            <a class="themeht-btn dark-btn" href="https://andilab.it/about.php" target="_blank">Scopri chi siamo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    about end-->
+
+        <!--certificazioni start
+    <section class="light-bg" id="certificazioni" >
+      <div class="container">
+        <div class="row">
+          
+            <div class="theme-title z-index-1">
+              <h6>certificazioni </h6>
+              <h2>Le nostre certificazioni</h2>
+            </div>
+          
+        </div>
+        <div class="row justify-content-center">
+          Primo riquadro
+          <div class="col-md-5 text-center p-4 bg-white shadow rounded">
+            <h3> ISO 27001</h3>
+            <img id="iso" src="images/certificazione_iso.png" alt="iso">
+            <p>La certificazione ISO 27001 garantisce la sicurezza delle informazioni attraverso standard internazionali, proteggendo i dati sensibili, riducendo i rischi e assicurando la conformità alle normative sulla privacy e cybersecurity.</p>
+            
+            
+          </div>
+          Secondo riquadro 
+          <div class="col-md-5 text-center p-4 bg-white shadow rounded ms-md-4 mt-4 mt-md-0">
+            <h3>ISO 9001</h3>
+            <img id="iso" src="images/certificazione_iso2.png" alt="iso">
+            <p>La certificazione ISO 9001 attesta la qualità dei processi aziendali, garantendo efficienza, soddisfazione del cliente e miglioramento continuo nella gestione e nella produzione di beni o servizi.
+            </p>
+            
+            
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    certificazioni end-->
+
+    <!--marquee start-->
+    <section class="overflow-hidden p-0" style="margin-bottom: 20px">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col">
+            <div class="marquee-wrap">
+              <div class="marquee-text">
+                <span>Zensy</span>
+                <i class="bi bi-dot"></i>
+                <span>Automatizza la tua attività</span>
+                <i class="bi bi-dot"></i>
+                <span>Gestisci abbonati e appuntamenti</span>
+                <i class="bi bi-dot"></i>
+                <span>Dati chiari, scelte migliori</span>
+                <i class="bi bi-dot"></i>
+                <span>Semplifica la gestione</span>
+                <i class="bi bi-dot"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!--marquee end-->
+
+
+
+    <!--footer start-->
+
+    <footer data-aos= "fade-down" data-aos-duration="1000" data-aos-delay="50"  class="footer" data-bg-img="images/bg/06.png" id="contatti">
+      <div class="container">
+        <div class="primary-footer">
+          <div class="row">
+            <div class="col-lg-5 col-md-12">
+              <h5>andilab</h5>
+              <ul class="media-icon list-unstyled mb-8">
+                <li>
+                  <a href="#"   style="pointer-events: none; cursor: default;">
+                    <i class="bi bi-pin-map"></i> Via dei Normanni 17, Pescara
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@andilab.it">
+                    <i class="bi bi-envelope"></i> info@andilab.it
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:andilab@pec.it">
+                    <i class="bi bi-envelope-check"></i> andilab@pec.it
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+390858293115">
+                    <i class="bi bi-telephone"></i> +39-085-8293115
+                  </a>
+                </li>
+              </ul>
+              <h5>CERTIFICAZIONI</h5>
+              <ul class="list-inline ps-0 ms-0 footer-social">
+                <li class="list-inline-item">
+                  <a href="https://www.iso.org/standards/popular/iso-9000-family" target="_blank">
+                    <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso2.png" alt="">
+                    <div class="text">
+                      <p>ISO 9001</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="https://www.iso.org/standard/27001" target="_blank">
+                    <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso.png" alt="">
+                    <div class="textto">
+                      <p>ISO 27001</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.acn.gov.it/portale/home" target="_blank">
+                    <img class="piattaforme" src="images/immagini-landingPage/logo-ACN.png" alt="">
+                    <div class="textto">
+                      <p class="mt-2">ACN</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.garanteprivacy.it/il-testo-del-regolamento" target="_blank">
+                    <img class="piattaforme" src="images/immagini-landingPage/logo-GDPR.jpg" alt="">
+                    <div class="textto">
+                      <p class="mt-2">GDPR</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <!--<h5>SEGUICI</h5>
+              <ul class="list-inline ps-0 ms-0 footer-social">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-dribbble"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+              </ul>-->
+            </div>
+            <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
+              <h5>INFORMAZIONI</h5>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+                  <ul class="list-unstyled w-100">
+                    <li>
+                      <a href="https://andilab.it/preventivo.php" target="_blank">Richiedi un preventivo</a>
+                    </li>
+                    <li>
+                      <a href="https://andilab.it/" target="_blank">Andilab</a>
+                    </li>
+                    <!--<li>
+                  <a href="https://andilab.it/project.php" target="_blank">Servizi</a>
+                </li>-->
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+                  <ul class="list-unstyled w-100">
+                    <li>
+                      <a href="https://andilab.it/tecnologia.html" target="_blank">Tecnologia</a>
+                    </li>
+                    <li>
+                      <a href="https://andilab.it/contatti.html" target="_blank">Contattaci</a>
+                    </li>
+                    <!--<li>
+                  <a href="https://andilab.it/contact.php" target="_blank">Contattaci</a>
+                </li>-->
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://andilab.it/servizi.html" target="_blank">Servizi</a>
+                    </li>
+                    <li>
+                      <a href="https://andilab.it/politica-aziendale.html" target="_blank">Politica aziendale</a>
+                    </li>
+                    <!--<li>
+                  <a href="terms-and-conditions.html" target="_blank">Terms</a>
+                </li>-->
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-8">
+                <div class="col-md-10">
+                  <h5 style="display: inline; margin-right: 10px;">Vuoi saperne di più? Lascia la tua email</h5>
+                  <div class="subscribe-form">
+                    <form id="mc-form" class="mc-form">
+                      <input  value="" name="emailLanding" class="email" id="mc-email" placeholder="Inserisci Email">
+                      <!-- Campo nascosto per il token reCAPTCHA -->
+                      <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                      <input class="subscribe-btn" type="submit"   name="subscribe" value="Invia" style="width: 90px;">
+                    </form>
+
+                    <!--<small class="d-block mt-3">Get started for 1 Month free trial No Purchace  .</small>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="secondary-footer">
+        <div class="container">
+          <div class="copyright">
+            <div class="row text-center">
+              <div class="col"> © Andilab S.r.l. | Registro Imprese di Pescara Chieti - REA 417993 | P.IVA / Cod. Fisc.: 02326560683 <br>
+              <a class="privacy" data-act="cookie">Cookie policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--footer end-->
+
+
+
+
+    <!-- page wrapper end -->
+
+    <a  class="preventivo-float-btn"  title="Inizia" >
+      <i class="bi bi-clipboard-plus"></i>
+    </a>                       
+    <!--back-to-top start-->
+
+    <div class="scroll-top">
+      <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!--back-to-top end-->
+
+
+    <!-- inject js start -->
+
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!--== jquery -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!--== bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--== jquery-appear -->
+    <script src="js/jquery-appear.js"></script>
+
+    <!--== owl-carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!--== magnific-popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!--== counter -->
+    <script src="js/odometer.min.js"></script>
+
+    <!--== countdown -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!--== wow -->
+    <script src="js/wow.min.js"></script>
+
+    <!--== theme-script -->
+    <script src="js/theme-script.js?v=3"></script>
+
+     <!--== AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- inject js end -->
+
+    <script>
+      $('.ordinazione').click(function() {
+        window.location = 'index.php?controller=homePage&action=ordinazione';
+      });
+      grecaptcha.ready(function() {
+        grecaptcha.execute('6LeGsPsqAAAAAELwY0ozcpKu6DEu5OOOD9mV6tur', {action: 'emailLanding'}).then(function(token) {
+            // Aggiungi il token al campo nascosto
+            $('#recaptchaResponse').val(token);
+        });
+      });
+      //Form invio email
+      $('#mc-form').submit(function(e) {
+        e.preventDefault(); // Impedisce l'invio predefinito del form e il ricaricamento della pagina
+        var email = $('#mc-email').val();
+        var reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        if (!reg.test(email)) {
+          toastr.error("Inserire un'email valida", 'Attenzione', { 
+            positionClass: 'toastr toast-bottom-right', 
+            progressBar: true, 
+            timeOut: 3000 
+          });
+        } else {
+          $.ajax({
+            url: 'index.php?controller=homePage&action=emailLanding',
+            type: 'POST',
+            data: { email: email,
+                  recaptcha_response: $('#recaptchaResponse').val() // Includi il token reCAPTCHA
+                  },
+            dataType: 'json',
+            success: function(response) {
+              if(response.esito == 1) {
+                toastr.success(response.messaggio, 'Successo', { 
+                  positionClass: 'toastr toast-bottom-right', 
+                  progressBar: true, 
+                  timeOut: 3000 
+                });
+                $('#mc-form')[0].reset(); // Reset del form
+              } else {
+                toastr.error(response.messaggio, 'Errore', { 
+                  positionClass: 'toastr toast-bottom-right', 
+                  progressBar: true, 
+                  timeOut: 3000 
+                });
+              }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              toastr.error('errore comunicazone server', 'Attenzione', { 
+                positionClass: 'toastr toast-bottom-right', 
+                progressBar: true, 
+                timeOut: 3000 
+              });
+            }
+          });
+        }
+      });
+
+      $(".privacy").on("click", function(){
+      act = $(this).data("act");
+        $.ajax({
+          url: 'index.php?controller=sessioneUtente&action=privacy',
+          type: "POST",
+          data  : {"act":$(this).data("act")},
+          success:function(data){
+            //modifico il titolo del modal in base all'azione
+            
+                
+            $("#modalPrivacy").find(".modal-title").text("Cookie policy");
+                
+            
+            $("#modalPrivacy").find(".modal-body").html(data);
+          },
+          error: function( jqXHR, textStatus, errorThrown ) {
+            toastr.error('Non &egrave; stato possibile completare l\'operazione!','Attenzione', { positionClass: 'toastr toast-bottom-right', progressBar: true, timeOut: 3000 });
+          }
+        });
+        $("#modalPrivacy").modal("show");
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const modal = document.getElementById('privacy-modal');
+        const content = modal.querySelector('.modal-content');
+
+        // funzione generica per bloccare scroll oltre i bordi
+        function preventScrollBleed(e, deltaY) {
+          const atTop    = content.scrollTop === 0 && deltaY < 0;
+          const atBottom = content.scrollTop + content.clientHeight >= content.scrollHeight && deltaY > 0;
+          if (atTop || atBottom) {
+            e.preventDefault();
+          }
+        }
+
+        // intercetta lo scroll con la rotella del mouse
+        content.addEventListener('wheel', (e) => {
+          preventScrollBleed(e, e.deltaY);
+        }, { passive: false });
+
+        // intercetta il touch scrolling (per smartphone/tablet)
+        let startY = null;
+        content.addEventListener('touchstart', (e) => {
+          startY = e.touches[0].clientY;
+        }, { passive: true });
+
+        content.addEventListener('touchmove', (e) => {
+          const currentY = e.touches[0].clientY;
+          const deltaY   = startY - currentY;
+          preventScrollBleed(e, deltaY);
+          startY = currentY;  // reset per il prossimo movimento
+        }, { passive: false });
+      });
+
+
+      
+
+      $('.preventivo-float-btn').click(function() {
+        window.location = 'index.php?controller=homePage&action=ordinazione';
+      });
+      
+      //rendi visibile il bottone richiedi preventivo dopo lo scroll
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerTarget = document.getElementById('home');
+        const btn = document.querySelector('.preventivo-float-btn');
+
+        const observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                btn.classList.remove('show'); // Se 'start' è visibile, nascondi il bottone
+              } else {
+                btn.classList.add('show'); // Se 'start' NON è visibile, mostra il bottone
+              }
+            });
+          },
+          {
+            root: null,
+            threshold: 0
+          }
+        );
+
+        if (observerTarget) {
+          observer.observe(observerTarget);
+        }
+      });
+        
+      AOS.init();
+
+      //toglie l'hoevr sul link vai al sito
+      document.addEventListener('DOMContentLoaded', function () {
+        // ———————————————————————————
+        // 1) Tab menu superiore (Base, Plus, Avanzato, Completo)
+        // ———————————————————————————
+        const tabs = ['light','standard','premium','completed'];
+        tabs.forEach(plan => {
+          document.getElementById(`${plan}-plan`)
+                  .addEventListener('click', () => showContent(plan));
+        });
+        function showContent(plan) {
+          document.querySelectorAll('.pricing-tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.pricing-content').forEach(c => c.classList.remove('active'));
+          document.getElementById(`${plan}-plan`).classList.add('active');
+          document.getElementById(`${plan}-content`).classList.add('active');
+         // ANIMAZIONE: spunte nuove che appaiono
+          const spunte = document.querySelectorAll(`#${plan}-content .check`);
+          spunte.forEach(check => {
+            check.classList.remove('animate-check'); // reset animazione se già presente
+            void check.offsetWidth; // forza reflow per riattivare l'animazione
+            check.classList.add('animate-check');
+          });
+        }
+
+        // ———————————————————————————
+        // 2) Billing toggle (Mensile/Annuale) PER OGNI PIANO
+        // ———————————————————————————
+        document.querySelectorAll('.billing-section').forEach(section => {
+          const options = section.querySelectorAll('.billing-option');
+          const priceDisplay = section.querySelector('.price-display');
+
+          options.forEach(btn => {
+            btn.addEventListener('click', function(e) {
+              e.preventDefault();
+              // evidenzia solo questo btn
+              options.forEach(b => b.classList.remove('active'));
+              this.classList.add('active');
+
+              // determina piano e nuovi valori
+              const planType = this.getAttribute('data-plan'); // "monthly" | "annual"
+              const newPrice = priceDisplay.querySelector('.price').getAttribute(`data-${planType}`);
+              const newPeriod = planType === 'monthly' ? '/mese' : '/anno';
+
+              // assegna la classe corrispondente per il colore
+              priceDisplay.classList.remove('monthly', 'annual');
+              priceDisplay.classList.add(planType);
+
+              // innesca il flip
+              priceDisplay.classList.add('flip');
+
+              // al termine della transizione aggiorna testo e rimuovi flip
+              priceDisplay.addEventListener('transitionend', () => {
+                priceDisplay.classList.remove('flip');
+                const frontP = priceDisplay.querySelector('.front .price');
+                const frontPeriod = priceDisplay.querySelector('.front .period');
+                frontP.textContent = newPrice;
+                frontPeriod.textContent = newPeriod;
+                // il colore viene applicato automaticamente dalla classe CSS
+              }, { once: true });
+            });
+          });
+        });
+      });
+   
+      
+      const slides = document.querySelectorAll('#webSolutionSlider .img-slide');
+  let current = 0;
+
+  setInterval(() => {
+    slides[current].style.opacity = 0;
+    current = (current + 1) % slides.length;
+    slides[current].style.opacity = 1;
+  }, 3000);
+      
+
+      
+      
+
+    </script>
+
+  </body>
+
+</html>
