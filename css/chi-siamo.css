@@ -1,0 +1,51 @@
+h1 {
+    background: linear-gradient(180deg, var(--themeht-primary-color2) 60%, var( --themeht-primary-color) 64%, var( --themeht-primary-color3) 66%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*--------------------------
+        paragrafo
+---------------------------*/
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px; /* Distanza tra icona e testo */
+  margin-bottom: 10px;
+}
+
+.info-item i {
+  flex-shrink: 0; /* Evita che l'icona si ridimensioni */
+  font-size: 1.2rem; /* Dimensione dell'icona */
+}
+
+.info-item p {
+  margin: 0; /* Evita margini indesiderati */
+}
+
+/*--------------------------
+       botone preventivo
+---------------------------*/
+
+#preventivo {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.error-message {
+  color: red;                /* Colore del testo rosso per errore */
+  font-size: 0.9em;          /* Dimensione del testo */
+  background-color: #fff0f0; /* Sfondo chiaro per risaltare il messaggio */
+  border: 1px solid red;     /* Bordo rosso */
+  padding: 2px 5px;          /* Padding per il messaggio */
+  border-radius: 3px;        /* Bordo arrotondato */
+  display: none;             /* Nasconde il messaggio di errore inizialmente */   
+}
+
+.error-message.visible {
+  display: block;            /* Mostra il messaggio di errore quando necessario */
+}

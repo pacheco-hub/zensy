@@ -1,0 +1,119 @@
+
+
+.assistenza {
+    margin-bottom: 100px;
+}
+
+.prova {
+    text-align: center;
+}
+
+.form-container {
+    
+    overflow: hidden; /* Nascondi il contenuto che esce */
+    max-height: 0; /* Imposta l'altezza massima iniziale a zero */
+    transition: max-height 1.5s ease-out; /* Aggiungi transizione */
+}
+
+/* Modifica l'altezza della select2 per farla uguale agli altri campi del form */
+.select2-selection {
+    height: 47px !important;  /* Imposta l'altezza per la selezione */
+    padding: 6px 12px;        /* Aggiusta il padding per una resa migliore */
+    font-size: 14px;          /* Imposta la dimensione del font */
+    margin-top: 1px;
+  }
+  
+ 
+  
+  /* Selezione dell'opzione */
+  .select2-results__option {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  /* In caso di select2 */
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: left; /* Allineamento a sinistra */
+    display: flex;
+    align-items: center; /* Centra verticalmente il testo */
+    justify-content: flex-start; /* Mantiene il testo allineato a sinistra orizzontalmente */
+  }
+  
+  /* Personalizza il bordo, lo sfondo e la freccia */
+.select2-container--default .select2-selection--single {
+    border-radius: 8px;  /* Angoli arrotondati */
+    border: 2px solid #ccc;  /* Colore del bordo */
+    background-color: #f7f7f7;  /* Colore di sfondo */
+    padding: 8px 12px;  /* Spaziatura interna */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Ombra leggera */
+    transition: all 0.3s ease;  /* Transizione per gli effetti hover */
+  }
+  
+  /* Cambio colore bordo e sfondo al passaggio del mouse */
+  .select2-container--default .select2-selection--single:hover {
+    border-color: #007bff;  /* Colore del bordo al passaggio */
+    background-color: #e9f5ff;  /* Colore di sfondo al passaggio */
+  }
+  
+  /* Quando la select è in focus */
+  .select2-container--default .select2-selection--single:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);  /* Ombra al focus */
+  }
+
+  /* Cambia la freccia */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    background-image: url('path_to_your_arrow_icon.svg');  /* Icona personalizzata */
+    background-size: 20px;  /* Dimensioni dell'icona */
+    background-position: center;  /* Posizionamento dell'icona */
+    background-repeat: no-repeat;  /* Non ripetere l'icona */
+    border-left: none;  /* Rimuovi la freccia predefinita */
+    width: 35px;  /* Larghezza della freccia */
+  }
+
+  /* Stile per la lista di opzioni */
+.select2-container--default .select2-results__option {
+    padding: 10px 15px;  /* Distanza tra le opzioni */
+    font-size: 14px;  /* Dimensione del font */
+    color: #333;  /* Colore del testo */
+    background-color: #fff;  /* Colore di sfondo */
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover su opzione */
+  .select2-container--default .select2-results__option:hover {
+    background-color: #f2f2f2;  /* Colore di sfondo quando l'utente passa sopra */
+  }
+  
+  /* Quando l'opzione è selezionata */
+  .select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #007bff;  /* Colore di sfondo dell'opzione selezionata */
+    color: white;  /* Colore del testo dell'opzione selezionata */
+  }
+
+  /* Transizione fluida per il bordo */
+.select2-container--default .select2-selection--single {
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Stile per il placeholder */
+  #successMessage {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 500px;
+    display: none; /* Nascondi inizialmente */
+    z-index: 9999; /* Assicura che il messaggio sia sopra gli altri contenuti */
+}
+  
+  
+  
+  
+  
+
+
+
+

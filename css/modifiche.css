@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: auto !important; 
+  }
+/* ------------------------
+    modal
+------------------------*/
+/* Modal: sfondo semi-trasparente che copre l'intera pagina */
+/* Sfondo scuro dietro il modal */
+/* Sfondo del modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Sfondo scuro semitrasparente */
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+    opacity: 0;
+    transform: translateY(-20px); /* Partenza leggermente sopra */
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Mostra il modal con animazione */
+.modal.show {
+    opacity: 1;
+    transform: translateY(0); /* Scende dolcemente */
+    visibility: visible;
+}
+
+/* Contenitore del modal */
+.custom-a .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid var(--themeht-primary-color2);
+    
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    /* Nasconde la scrollbar su diversi browser */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Per Chrome, Safari ed Edge */
+.modal-content::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+  
+  
+  /* Contenuto del modal: riquadro bianco centrato */
+  .title {
+    font-weight: bold;
+  }
+
+  
+  
+  /* Pulsante di chiusura (X) */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+/* ------------------------
+    Logo immagine 
+------------------------*/
+.cuore {
+    text-align: left;
+}
+
+#about {
+    text-align: left;
+}
+
+.logo-nav {
+    height: 32px; /* Altezza fissa */
+    width: auto;   /* Larghezza adattata automaticamente */
+    margin-right: 5px; /* Aggiunge 20px di spazio sulla destra */
+    transform: translateY(-1px);
+} 
+
+/* ------------------------
+    certificaioni
+------------------------*/
+#iso {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-top: 15;
+  }
+
+.col-md-5 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-md-5:hover {
+    transform: scale(1.05); /* Ingrandisce leggermente */
+}
+
+
+.navbar a.active {
+    color: #ff0000; /* Sostituisci con il colore desiderato */
+  }
+/*
+.footer {
+    background: linear-gradient(115deg, #2b86c7 -20%, #ffffff 50%, #ef781a 120%);
+}
+
+
+/* ------------------------
+    sfondo sfumato
+------------------------
+  
+.sfondo-sfumato {
+    background: linear-gradient(90deg, #2b86c7 10%, #ffffff 50%, #ef781a 90%);
+    width: 100%; /* Occupa tutta la larghezza 
+    height: 70vh; /* Regola l'altezza a piacere 
+    clip-path: polygon(0% 10%, 100% 0%, 100% 80%, 0% 100%);
+    
+}
+*/
+
+/* ------------------------
+    captcha
+------------------------*/
+.g-recaptcha {
+    margin-top: 20px;
+   
+}
+
+/* ------------------------
+      progetti
+------------------------*/
+
+.piattaforme {
+    width: 60px;
+    height: 60px;
+}
+
+.list-inline-item {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.list-inline-item:hover {
+    transform: scale(1.12); /* Ingrandisce leggermente */
+}
+
+.list-inline-item .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 52%);
+    font-size: 13px;
+    opacity: 0;
+    font-weight: bold;
+    
+}
+
+.list-inline-item:hover .text {
+    opacity: 1;
+}
+
+.list-inline-item .textto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 52%);
+    font-size: 13px;
+    opacity: 0;
+    font-weight: bold;
+    
+}
+
+.list-inline-item:hover .textto {
+    opacity: 1;
+}
+
+
+
+/* ------------------------
+      bottone italiano
+------------------------*/
+
+#it {
+    margin-right: 3px;
+}
+
+
+#start_text {
+    font-size: 60px;
+}
+
+
+html {
+    scroll-behavior: auto !important; 
+  }
+
+
+/* ------------------------
+      RIMOZIONE IMMAGINE PER PICCOLI DISPOSITIVI
+------------------------*/
+
+  @media (max-width: 440px) {
+    .logo-nav {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1399px) {
+    .banner-img2, .banner-img3 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1126px) {
+    #it {
+      display: none;
+    }
+  }
+
+  @media (max-width: 409px) {
+    .navbar-brand {
+      font-size: 2.4rem;
+    }
+  }
+
+  
+/* ------------------------
+      RIMOZIONE MAPPA
+------------------------*/
+@media (max-width: 984px) {
+    .mappa {
+      display: none;
+    }
+  }
+
+  .info-item {
+    display: flex;
+    align-items: flex-start; /* Allinea l'icona in cima */
+    gap: 10px; /* Distanza tra l'icona e il testo */
+  }
+  
+  .checkout-form {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-control:focus {
+  border: 2px solid #007bff !important; /* Cambia colore se vuoi */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5) !important;
+  outline: none !important;
+}
+
+
