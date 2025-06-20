@@ -48,7 +48,7 @@
 <link href="css/style.css?v=3" rel="stylesheet" type="text/css" />
 
 <!--== responsive -->
-<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css?v=2" rel="stylesheet" type="text/css" />
 
 
 
@@ -64,6 +64,10 @@
   /* Qui metti le tue regole */
   color: #1C4966;
   
+}
+
+.navbar-toggler {
+  display: none;
 }
 
 
@@ -241,7 +245,7 @@
                 </li>
               </ul>
             </div>-->
-            <a class="themeht-btn dark-btn ms-auto d-none d-lg-inline-block" href="#">
+            <a class="themeht-btn dark-btn ms-auto always-show d-lg-inline-block" id="scopriDiPiu" href="#">
               Scopri di più
             </a>
           </nav>
@@ -265,14 +269,14 @@
       <div class="col-lg-4">
         <p class="lead mb-5 wow animate__zoomIn animate__slow">Scopri ZensyOne, il totem intelligente che affianca la tua attività. Un alleato digitale per semplificare l’accoglienza, velocizzare le operazioni e migliorare l’esperienza dei tuoi clienti.</p>
         <div class="wow animate__fadeInUp animate__slow">
-          <a class="themeht-btn" href="#">Get Started</a>
-          <a class="themeht-btn dark-btn ms-3" href="#">Contact Us</a>
+          <a class="themeht-btn me-3" href="#">Get Started</a>
+          <a class="themeht-btn dark-btn mt-3" href="#">Contact Us</a>
         </div>
       </div>
     </div>
     <div class="row justify-content-center mt-10">
       <div class="col-lg-10 text-center position-relative">
-        <video autoplay loop muted playsinline style="width: 700px; border-radius: 12px; border: 4px solid black;">
+        <video autoplay loop muted playsinline style="width: 70%; border-radius: 12px; border: 4px solid black;">
           <source src="images/videoHardware.mp4" type="video/mp4">
           Il tuo browser non supporta il tag video.
         </video>
