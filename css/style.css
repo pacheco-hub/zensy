@@ -56,7 +56,7 @@ body {font-family: var(--themeht-body-font-family); font-weight: normal; font-st
     Typography
 ------------------------*/
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6{font-weight:normal; margin-top: 0px; margin-bottom: 20px; font-style: normal; text-transform: capitalize; font-family: var(--themeht-secondary-font-family); color: var(--themeht-text-color);}
+.h1, .h2, .h3, .h4, .h5, .h6{font-weight:normal; margin-top: 0px; margin-bottom: 20px; font-style: normal;  font-family: var(--themeht-secondary-font-family); color: var(--themeht-text-color);}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 .h1, h1 { font-size: 70px; line-height: 80px; font-weight: 700;}
 .h2, h2 { font-size: 46px; line-height: 56px; font-weight: 700;}
