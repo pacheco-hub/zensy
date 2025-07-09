@@ -114,11 +114,6 @@
 }
 
 
-.certificazioniSocial {
-
-  margin-top: 16.6% !important;
-}
-
 
 
   </style>
@@ -1241,7 +1236,8 @@
 
     <!--footer start-->
 
-   <!--footer start-->
+
+<!--footer start-->
 <footer data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50" class="footer" data-bg-img="images/bg/06.png" id="contatti">
   <div class="container">
     <div class="primary-footer">
@@ -1271,15 +1267,31 @@
               </a>
             </li>
           </ul>
-          <div class="col-md-10">
-            <h5 style="display: inline; margin-right: 10px;">Vuoi saperne di più? Lascia la tua email</h5>
-            <div class="subscribe-form">
-              <form id="mc-form" class="mc-form">
-                <input value="" name="emailLanding" class="email" id="mc-email" placeholder="Inserisci Email">
-                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-                <input class="subscribe-btn" type="submit" name="subscribe" value="Invia" style="width: 90px;">
-              </form>
-            </div>
+          <!-- CERTIFICAZIONI -->
+          <div class="certificazioni" style="margin-top: 15% !important;">
+            <h5 class="mb-3">CERTIFICAZIONI</h5>
+            <ul class="list-inline ps-0 ms-0 d-flex flex-row flex-nowrap">
+              <li class="list-inline-item">
+                <a href="https://www.iso.org/standards/popular/iso-9000-family" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso2.png" alt="ISO 9001">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.iso.org/standard/27001" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso.png" alt="ISO 27001">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.acn.gov.it/portale/home" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/logo-ACN.png" alt="ACN">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.garanteprivacy.it/il-testo-del-regolamento" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/gdprApproved.png" alt="GDPR Approved">
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -1307,50 +1319,38 @@
             </div>
           </div>
 
-          <!-- SEZIONI CERTIFICAZIONI E SOCIAL -->
-          <div class="row mt-5 align-items-start">
-            <!-- CERTIFICAZIONI -->
-            <div class="col-md-6 mt-5 certificazioniSocial">
-              <h5 class="mb-3">CERTIFICAZIONI</h5>
-              <ul class="list-inline ps-0 ms-0 footer-social">
-                <li class="list-inline-item">
-                  <a href="https://www.iso.org/standards/popular/iso-9000-family" target="_blank">
-                    <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso2.png" alt="">
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.iso.org/standard/27001" target="_blank">
-                    <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso.png" alt="">
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.acn.gov.it/portale/home" target="_blank">
-                    <img class="piattaforme" src="images/immagini-landingPage/logo-ACN.png" alt="">
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.garanteprivacy.it/il-testo-del-regolamento" target="_blank">
-                    <img class="piattaforme" src="images/immagini-landingPage/gdprApproved.png" alt="">
-                  </a>
-                </li>
-              </ul>
+          <!-- FORM DI ISCRIZIONE -->
+          <div class="mt-5 subscribe-block">
+            <h5 style="display: inline; margin-right: 10px;">Vuoi saperne di più? Lascia la tua email</h5>
+            <div class="subscribe-form mt-3">
+              <form id="mc-form" class="mc-form d-flex">
+                <input value="" name="emailLanding" class="email flex-grow-1 me-3" id="mc-email" placeholder="Inserisci Email">
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                <input class="subscribe-btn" type="submit" name="subscribe" value="Invia" style="width: 90px;">
+              </form>
             </div>
+          </div>
 
-            <!-- SOCIAL -->
-            <div class="col-md-6 mt-5 certificazioniSocial">
-              <h5 class="mb-3">SOCIAL</h5>
-              <ul class="list-inline ps-0 ms-0 footer-social">
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-4"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter fs-4"></i></a>
-                </li>
-              </ul>
-            </div>
+          <!-- SOCIAL SOTTO ISCRIZIONE -->
+          <div class="social-block mt-4">
+            <h5 class="mb-3">SOCIAL</h5>
+            <ul class="list-inline ps-0 ms-0 d-flex footer-social flex-row flex-nowrap">
+              <li class="list-inline-item">
+              <a href="https://www.instagram.com/zensy.one/" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            </ul>
           </div>
 
         </div>
@@ -1372,6 +1372,7 @@
     </div>
   </div>
 </footer>
+
 
     <!--footer end-->
 

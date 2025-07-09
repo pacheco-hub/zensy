@@ -205,8 +205,8 @@ span,
 .footer-menu li a { position: relative; font-size: 16px; font-weight: 400; color: var(--themeht-text-color) }
 .footer-menu li a:hover { color: var(--themeht-primary-color3); }
 .footer-menu .list-inline li { display: inline-block; margin: 0 10px; }
-/*.footer-social li a { height: 60px; width: 60px; line-height: 64px; font-size: 26px; color: transparent; background: var(--themeht-white-color); display: inline-block; text-align: center; border-radius: 50%; -webkit-text-stroke: 1px var(--themeht-text-color); }*/
-.footer-social li a { height: 60px; width: 60px; line-height: 64px; font-size: 26px; display: inline-block; text-align: center;  }
+.footer-social li a { height: 60px; width: 60px; line-height: 64px; font-size: 26px; color: transparent; background: var(--themeht-white-color); display: inline-block; text-align: center; border-radius: 50%; -webkit-text-stroke: 1px var(--themeht-text-color); }
+/*.footer-social li a { height: 60px; width: 60px; line-height: 64px; font-size: 26px; display: inline-block; text-align: center;  }*/
 
 
 /* ------------------------

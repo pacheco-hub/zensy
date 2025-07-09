@@ -996,16 +996,16 @@ pricing end-->
 
 
 <!--footer start-->
-
-<footer data-aos= "fade-down" data-aos-duration="1000" data-aos-delay="50"  class="footer" data-bg-img="images/bg/06.png" id="contatti">
+<footer data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50" class="footer" data-bg-img="images/bg/06.png" id="contatti">
   <div class="container">
     <div class="primary-footer">
       <div class="row">
+        <!-- COLONNA SINISTRA -->
         <div class="col-lg-5 col-md-12">
           <h5>andilab</h5>
           <ul class="media-icon list-unstyled mb-8">
             <li>
-              <a href="#"   style="pointer-events: none; cursor: default;">
+              <a href="#" style="pointer-events: none; cursor: default;">
                 <i class="bi bi-pin-map"></i> Via dei Normanni 17, Pescara
               </a>
             </li>
@@ -1025,44 +1025,79 @@ pricing end-->
               </a>
             </li>
           </ul>
-          <h5>CERTIFICAZIONI</h5>
-          <ul class="list-inline ps-0 ms-0 footer-social">
-            <li class="list-inline-item">
-              <a href="https://www.iso.org/standards/popular/iso-9000-family" target="_blank">
-                <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso2.png" alt="">
-                <div class="text">
-                  <p>ISO 9001</p>
-                </div>
-              </a>
-            </li>
+          <!-- CERTIFICAZIONI -->
+          <div class="certificazioni" style="margin-top: 15% !important;">
+            <h5 class="mb-3">CERTIFICAZIONI</h5>
+            <ul class="list-inline ps-0 ms-0 d-flex flex-row flex-nowrap">
+              <li class="list-inline-item">
+                <a href="https://www.iso.org/standards/popular/iso-9000-family" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso2.png" alt="ISO 9001">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.iso.org/standard/27001" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso.png" alt="ISO 27001">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.acn.gov.it/portale/home" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/logo-ACN.png" alt="ACN">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.garanteprivacy.it/il-testo-del-regolamento" target="_blank">
+                  <img class="piattaforme" src="images/immagini-landingPage/gdprApproved.png" alt="GDPR Approved">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-            <li class="list-inline-item">
-              <a href="https://www.iso.org/standard/27001" target="_blank">
-                <img class="piattaforme" src="images/immagini-landingPage/certificazione_iso.png" alt="">
-                <div class="textto">
-                  <p>ISO 27001</p>
-                </div>
+        <!-- COLONNA DESTRA -->
+        <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
+          <h5>INFORMAZIONI</h5>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+              <ul class="list-unstyled w-100">
+                <li><a href="https://andilab.it/preventivo.php" target="_blank">Richiedi un preventivo</a></li>
+                <li><a href="https://andilab.it/" target="_blank">Andilab</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+              <ul class="list-unstyled w-100">
+                <li><a href="https://andilab.it/tecnologia.html" target="_blank">Tecnologia</a></li>
+                <li><a href="https://andilab.it/contatti.html" target="_blank">Contattaci</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
+              <ul class="list-unstyled">
+                <li><a href="https://andilab.it/servizi.html" target="_blank">Servizi</a></li>
+                <li><a href="https://andilab.it/politica-aziendale.html" target="_blank">Politica aziendale</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- FORM DI ISCRIZIONE -->
+          <div class="mt-5 subscribe-block">
+            <h5 style="display: inline; margin-right: 10px;">Vuoi saperne di più? Lascia la tua email</h5>
+            <div class="subscribe-form mt-3">
+              <form id="mc-form" class="mc-form d-flex">
+                <input value="" name="emailLanding" class="email flex-grow-1 me-3" id="mc-email" placeholder="Inserisci Email">
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                <input class="subscribe-btn" type="submit" name="subscribe" value="Invia" style="width: 90px;">
+              </form>
+            </div>
+          </div>
+
+          <!-- SOCIAL SOTTO ISCRIZIONE -->
+          <div class="social-block mt-4">
+            <h5 class="mb-3">SOCIAL</h5>
+            <ul class="list-inline ps-0 ms-0 d-flex footer-social flex-row flex-nowrap">
+              <li class="list-inline-item">
+              <a href="https://www.instagram.com/zensy.one/" target="_blank">
+                <i class="bi bi-instagram"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="https://www.acn.gov.it/portale/home" target="_blank">
-                <img class="piattaforme" src="images/immagini-landingPage/logo-ACN.png" alt="">
-                <div class="textto">
-                  <p class="mt-2">ACN</p>
-                </div>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.garanteprivacy.it/il-testo-del-regolamento" target="_blank">
-                <img class="piattaforme" src="images/immagini-landingPage/gdprApproved.png" alt="">
-                <div class="textto">
-                  <p class="mt-2">GDPR</p>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <!--<h5>SEGUICI</h5>
-          <ul class="list-inline ps-0 ms-0 footer-social">
             <li class="list-inline-item">
               <a href="#">
                 <i class="bi bi-facebook"></i>
@@ -1070,94 +1105,25 @@ pricing end-->
             </li>
             <li class="list-inline-item">
               <a href="#">
-                <i class="bi bi-dribbble"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="bi bi-instagram"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
                 <i class="bi bi-twitter"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </li>
-          </ul>-->
-        </div>
-        <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
-          <h5>INFORMAZIONI</h5>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
-              <ul class="list-unstyled w-100">
-                <li>
-                  <a href="https://andilab.it/preventivo.php" target="_blank">Richiedi un preventivo</a>
-                </li>
-                <li>
-                  <a href="https://andilab.it/" target="_blank">Andilab</a>
-                </li>
-                <!--<li>
-              <a href="https://andilab.it/project.php" target="_blank">Servizi</a>
-            </li>-->
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
-              <ul class="list-unstyled w-100">
-                <li>
-                  <a href="https://andilab.it/tecnologia.html" target="_blank">Tecnologia</a>
-                </li>
-                <li>
-                  <a href="https://andilab.it/contatti.html" target="_blank">Contattaci</a>
-                </li>
-                <!--<li>
-              <a href="https://andilab.it/contact.php" target="_blank">Contattaci</a>
-            </li>-->
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
-              <ul class="list-unstyled">
-                <li>
-                  <a href="https://andilab.it/servizi.html" target="_blank">Servizi</a>
-                </li>
-                <li>
-                  <a href="https://andilab.it/politica-aziendale.html" target="_blank">Politica aziendale</a>
-                </li>
-                <!--<li>
-              <a href="terms-and-conditions.html" target="_blank">Terms</a>
-            </li>-->
-              </ul>
-            </div>
+            </ul>
           </div>
-          <div class="row mt-8">
-            <div class="col-md-10">
-              <h5 style="display: inline; margin-right: 10px;">Vuoi saperne di più? Lascia la tua email</h5>
-              <div class="subscribe-form">
-                <form id="mc-form" class="mc-form">
-                  <input  value="" name="emailLanding" class="email" id="mc-email" placeholder="Inserisci Email">
-                  <!-- Campo nascosto per il token reCAPTCHA -->
-                  <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-                  <input class="subscribe-btn" type="submit"   name="subscribe" value="Invia" style="width: 90px;">
-                </form>
 
-                <!--<small class="d-block mt-3">Get started for 1 Month free trial No Purchace  .</small>-->
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Footer secondario -->
   <div class="secondary-footer">
     <div class="container">
       <div class="copyright">
         <div class="row text-center">
-          <div class="col"> © Andilab S.r.l. | Registro Imprese di Pescara Chieti - REA 417993 | P.IVA / Cod. Fisc.: 02326560683 <br>
-          <a class="privacy" data-act="cookie">Cookie policy</a>
+          <div class="col">
+            © Andilab S.r.l. | Registro Imprese di Pescara Chieti - REA 417993 | P.IVA / Cod. Fisc.: 02326560683 <br>
+            <a class="privacy" data-act="cookie">Cookie policy</a>
           </div>
         </div>
       </div>
