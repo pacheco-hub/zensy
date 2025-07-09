@@ -73,7 +73,7 @@ u {text-decoration-style: wavy;}
     Helper class
 ------------------------*/
 p{line-height: 1.7;}
-.lead{font-weight: normal; font-size: 17px; line-height: 30px;}
+.lead{font-weight: normal; font-size: 20px; line-height: 30px;}
 .z-index-0{z-index: 0; position: relative;}
 .z-index-1{z-index: 1; position: relative;}
 section{padding: 120px 0; position: relative;}
@@ -110,7 +110,7 @@ section{padding: 120px 0; position: relative;}
 [data-bg-img] { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .banner { padding: 180px 0 120px; position: relative; z-index: 0; background-color: var(--themeht-bg-light-color); }
 .banner h1 span, .banner-2 h1 span, .banner-3 h1 span{ background: linear-gradient(160deg, var(--themeht-primary-color2) 30%, var( --themeht-primary-color4) 64%, var( --themeht-primary-color3) 96%); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.macbook-box { background: var(--themeht-primary-color3); position: relative; border-radius: 30px; border: 20px solid var(--themeht-primary-color3); }
+.macbook-box { background: var(--themeht-primary-color3); position: relative; border-radius: 30px; border: 14px solid var(--themeht-primary-color3); }
 .macbook-box::before { content: ""; height: 20px; width: 120%; position: absolute; bottom: -35px; background: var(--themeht-white-color); left: -10%; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; box-shadow: 0px 0px 15px 0px rgba(72, 73, 121, 0.15); }
 .macbook-box img { border-radius: 30px}
 .round-shape-animation { position: absolute; width: 1000px; height: 1000px; right: -450px; top: 0; display: inline-block; background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color), var(--themeht-primary-color3)); border-radius: 100%; z-index: -1; }
